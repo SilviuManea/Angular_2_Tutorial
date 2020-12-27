@@ -1,3 +1,5 @@
 # Angular_2_Tutorial
 
 Lesson-1 - Introduction
+
+Lesson-2 - Installing the Angular CLI
