@@ -11,3 +11,5 @@ Lesson-4 - Core files Overview
 Lesson-5 - Components
 
 Lesson-6 - Templates & CSS
+
+Lesson-7 - Creating a Component
