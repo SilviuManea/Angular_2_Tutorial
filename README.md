@@ -9,3 +9,5 @@ Lesson-3 - Intro to TypeScript
 Lesson-4 - Core files Overview
 
 Lesson-5 - Components
+
+Lesson-6 - Templates & CSS
