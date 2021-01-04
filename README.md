@@ -13,3 +13,5 @@ Lesson-5 - Components
 Lesson-6 - Templates & CSS
 
 Lesson-7 - Creating a Component
+
+Lesson-8 - Nesting Components(tutorial outdated - no need to nest that way anymore, angular already does it for us.)
