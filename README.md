@@ -20,4 +20,6 @@ Lesson-9 - Ng-Content Directive
 
 Lesson-10 - Data Binding (with string interpolation {{variable}} )
 
-Lesson-11 - Propery Binding
+Lesson-11 - Propery Binding (using brackets with [variables])
+
+Lesson-12 - Event Binding (sending events from the view to the logic ts)
