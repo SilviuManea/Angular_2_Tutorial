@@ -19,3 +19,5 @@ Lesson-8 - Nesting Components(tutorial outdated - no need to nest that way anymo
 Lesson-9 - Ng-Content Directive
 
 Lesson-10 - Data Binding (with string interpolation {{variable}} )
+
+Lesson-11 - Propery Binding
