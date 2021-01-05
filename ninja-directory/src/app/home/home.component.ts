@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  homeTitle = "Welcome to the ninja directory";//data we can pass to the view {{string interpolation}}
   constructor() { }
 
   ngOnInit(): void {
