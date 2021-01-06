@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!,woop woop';
   name = 'ninja';
+  ninja = { //pass this object from root component to home component
+    name: "Ryu",
+    belt: "Red"
+  };
 }
