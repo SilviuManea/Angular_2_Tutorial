@@ -7,12 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   homeTitle = "Welcome to the ninja directory";//data we can pass to the view {{string interpolation}}
-  myString = "I like chiken";
-  myBoolean = true;
-
-  alertMe(val: any){
-    alert(val);
-  }
+  ninja = {
+    name: "Yoshi",
+    belt: "Black"
+  };
 
   constructor() { }
 

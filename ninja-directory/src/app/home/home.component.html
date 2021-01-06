@@ -3,7 +3,10 @@
 </p>
 <ng-content></ng-content>
 
-<!--property binding-->
-<input [value] ="myString" /> <!--[value] with brackets will output the value of the variable "myValue" defined on the component.ts-->
-<input required ="{{myBoolean}}" /> <!--this does the same as above but using string interpolation {{myBoolean}} and no [] on the variable-->
-<button (click) ="alertMe('i like beef')">Click me</button> <!--Defining the function and the event on the view, we can pass values from the view to the logic and do stuff with it-->
+<!--2 way data binding-->
+<label>Name</label>
+<input [(ngModel)] = "ninja.name" />
+<label>Belt</label>
+<input [(ngModel)] = "ninja.belt" />
+<p>{{ninja.name}}</p>
+<p>{{ninja.belt}}</p>
