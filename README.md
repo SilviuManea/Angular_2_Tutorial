@@ -30,4 +30,4 @@ Lesson-14 - Custom Property Binding ( & @input) - passing data from the root com
 
 Lesson-15 - Custom Event Binding (& @Output) - passing data from another component to root component.
 
-Lesson-16 - Routing - we set up the app so that we can change between the home module and the directory module by providing this route : http://localhost:4200/ or http://localhost:4200/directory and <router-outlet>
+Lesson-16 - Routing - we set up the app so that we can change between the home module and the directory module by providing this route : http://localhost:4200/ or http://localhost:4200/directory and router-outlet
