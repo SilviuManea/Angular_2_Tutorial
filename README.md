@@ -26,4 +26,6 @@ Lesson-12 - Event Binding (sending events from the view to the logic ts)
 
 Lesson-13 - 2 Way Data Binding ( using [(ngModel)] and FormsModule)
 
-Lesson-14 Custom Property Binding ( & @input) - passing data from the root component to another component(home)
+Lesson-14 - Custom Property Binding ( & @input) - passing data from the root component to another component(home)
+
+Lesson-15 - Custom Event Binding (& @Output)

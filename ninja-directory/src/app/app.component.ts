@@ -12,4 +12,10 @@ export class AppComponent {
     name: "Ryu",
     belt: "Red"
   };
+
+  yell(e: any){ //this yell function is going to fire when the event onYell from the view occurs
+    alert("I am Yelling");
+    console.log(e);//logs the event to the console
+  }
+
 }
