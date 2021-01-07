@@ -28,4 +28,6 @@ Lesson-13 - 2 Way Data Binding ( using [(ngModel)] and FormsModule)
 
 Lesson-14 - Custom Property Binding ( & @input) - passing data from the root component to another component(home)
 
-Lesson-15 - Custom Event Binding (& @Output)
+Lesson-15 - Custom Event Binding (& @Output) - passing data from another component to root component.
+
+Lesson-16 - Routing - we set up the app so that we can change between the home module and the directory module by providing this route : http://localhost:4200/ or http://localhost:4200/directory and <router-outlet>

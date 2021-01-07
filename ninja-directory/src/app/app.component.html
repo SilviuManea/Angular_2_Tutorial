@@ -8,7 +8,7 @@
   </nav>
 </header>
 <section id="main">
-  <app-home [ninja] = "ninja" (onYell) = "yell($event)">hello there ! </app-home> <!--onyell is our custom event binding and we passtrough the event information ($event)-->
-  
+  <!-- <app-home [ninja] = "ninja" (onYell) = "yell($event)">hello there ! </app-home> onyell is our custom event binding and we passtrough the event information ($event) -->
+  <router-outlet></router-outlet>  <!--Routing this to whatever component we request via route-->
 
 </section>
