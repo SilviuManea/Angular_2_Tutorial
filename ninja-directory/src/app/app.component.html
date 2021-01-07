@@ -2,8 +2,14 @@
   <h1>{{title}}</h1>
   <nav>
     <ul>
-      <li>link</li>
-      <li>link</li>
+      <!--Method using router link directive-->
+      <li><a [routerLink]="['/']" >Home</a></li>
+      <li><a [routerLink]="['directory']" >Directory</a></li>
+
+
+      <!--Method using direct links(not optimal, reloads entire page)-->
+      <!-- <li><a href = "/">Home</a></li>
+      <li><a href = "/directory">Directory</a></li> -->
     </ul>
   </nav>
 </header>
