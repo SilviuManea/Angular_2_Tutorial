@@ -33,3 +33,6 @@ Lesson-15 - Custom Event Binding (& @Output) - passing data from another compone
 Lesson-16 - Routing - we set up the app so that we can change between the home module and the directory module by providing this route : http://localhost:4200/ or http://localhost:4200/directory and router-outlet
 
 Lesson-17 - Adding Links
+
+Lesson-18 - Route Params (try it accessing http://localhost:4200/directory/ninja) - it should show the ninja Param(or whatever we pass instead)
+
