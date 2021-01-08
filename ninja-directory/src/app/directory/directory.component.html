@@ -1,4 +1,13 @@
-<p>
+<p [ngClass]="classes"><!--check directory component for classes variable-->
+    <!-- We can use it directly on the view -> <p [ngClass]="{'blue':true, 'red':false, 'underline':true}"></p> -->
     directory works!
 </p>
-<p>{{ninja}}</p>
+
+<p *ngIf="false">Only show if test is true</p> <!--Its shoqing the element if the ngif evaluates to true or it hides it if = false-->
+<p *ngIf="test">Only show if test is true</p> <!--Its shoqing the element if the ngif evaluates to true or it hides it if = false check the directory component-->
+
+<style>
+    .blue{color:blue;}
+    .red{color:red;}
+    .underline{text-decoration:underline;}
+</style>

@@ -7,7 +7,7 @@ import { HomeComponent } from "./home/home.component";
 
 //set up the routes
 const routes: Routes = [
-  {path: 'directory/:ninja' , component: DirectoryComponent},
+  //{path: 'directory/:ninja' , component: DirectoryComponent},
   {path: 'directory' , component: DirectoryComponent},
   {path: '', component: HomeComponent}
 ];
