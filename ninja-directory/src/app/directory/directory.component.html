@@ -1,13 +1,12 @@
-<p [ngClass]="classes"><!--check directory component for classes variable-->
-    <!-- We can use it directly on the view -> <p [ngClass]="{'blue':true, 'red':false, 'underline':true}"></p> -->
-    directory works!
-</p>
+<h2>Ninja Listing</h2>
 
-<p *ngIf="false">Only show if test is true</p> <!--Its shoqing the element if the ngif evaluates to true or it hides it if = false-->
-<p *ngIf="test">Only show if test is true</p> <!--Its shoqing the element if the ngif evaluates to true or it hides it if = false check the directory component-->
-
-<style>
-    .blue{color:blue;}
-    .red{color:red;}
-    .underline{text-decoration:underline;}
-</style>
+<ul id="ninja-listing">
+    <li *ngFor="let ninja of ninjas"> <!--we need to define the ninjas collection on the directory component-->
+        <div class="single-ninja">
+            <!--Belt Colour-->
+            <span [ngStyle] = "{background: ninja.belt}">{{ninja.belt}} belt</span>
+            <!--Ninja Name-->
+            <h3>{{ninja.name}}</h3>
+        </div>
+    </li>
+</ul>

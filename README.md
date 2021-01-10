@@ -37,3 +37,5 @@ Lesson-17 - Adding Links
 Lesson-18 - Route Params (try it accessing http://localhost:4200/directory/ninja) - it should show the ninja Param(or whatever we pass instead)
 
 Lesson-19 - Directives Introduction( using ngClass - attribute directive - changes an atribute:color,etc)) and ngIf ( structural directive - changes the structure of the html code)
+
+Lesson-20 - NgFor(atructural directive) - allows us to loop trough data and output multiple series of html tags for each one of those data items.
