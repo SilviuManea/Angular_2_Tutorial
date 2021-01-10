@@ -41,3 +41,6 @@ Lesson-19 - Directives Introduction( using ngClass - attribute directive - chang
 Lesson-20 - NgFor(atructural directive) - allows us to loop trough data and output multiple series of html tags for each one of those data items.
 
 Lesson-21 - Pipes - how we can use them to change the output of our data to the end-user, pipes just affect how our data outputs to the screen.
+
+Lesson-22 - Custom Filter Pipe - NOT WORKING ON Latest ANGULAR Version in 2021 - Ignore this code and go to official doc for custom pipes.
+
